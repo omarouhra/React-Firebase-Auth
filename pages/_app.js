@@ -3,6 +3,7 @@ import "tailwindcss/tailwind.css";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "../firebase";
 import Login from "../components/Login";
+import '../styles/global.css'
 
 function MyApp({ Component, pageProps }) {
   const [user, loading, error] = useAuthState(auth);

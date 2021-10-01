@@ -9,8 +9,8 @@ export default function Home() {
         <title>Tailwind UI</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <h1>Let's build a Sign in page with Tailwind UI</h1>
-      <button onClick={() => signOut(auth)}>log out</button>
+      <h1>Let's go you're in</h1>
+      <button className='button' onClick={() => signOut(auth)}>log out</button>
     </div>
   );
 }

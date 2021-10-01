@@ -68,11 +68,11 @@ function Login() {
         placeholder='password'
         ref={passwordRef}
       />
-      <button onClick={signIn} type='submit'>
+      <button className='button' onClick={signIn} type='submit'>
         Sign In
       </button>
-      <button onClick={register}>Register a new account</button>
-      <button onClick={reset}>forgot my password</button>
+      <button className='button' onClick={register}>Register a new account</button>
+      <button className='button' onClick={reset}>forgot my password</button>
     </form>
   );
 }
